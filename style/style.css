@@ -524,11 +524,12 @@ select {
     width: 1032px;
     height: 44px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: bold;
     border: 1px solid #ccc;
     border-radius: 8px;
     text-align: center;
-    color: #888;
+    opacity: 100%;
 }
 
 .custom-donate input::placeholder {
