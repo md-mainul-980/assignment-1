@@ -504,6 +504,7 @@ select {
     font-weight: bold;
     opacity: 80%;
     border-radius: 8px;
+    box-shadow: 0 2px 2px 0 black;
     border: none;
     background-color: white;
 }
