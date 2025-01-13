@@ -1,7 +1,10 @@
+/* default margin and padding */
 * {
     margin: 0px;
     padding: 0px;
 }
+
+/* body part style */
 
 body {
     font-family: Arial, sans-serif;
@@ -10,10 +13,14 @@ body {
     height: 1280px;    
 }
 
+/* nav part style */
+
 nav {
     text-decoration: none;
     margin-bottom: 25px;
 }
+
+/* main and header part style */
 
 main header {
     background-color: rgba(228, 221, 221, 0.651);
@@ -24,6 +31,8 @@ main {
 
 }
 
+/* header top side */
+
 .top-side {
     display: flex;
     justify-content: space-between;
@@ -31,11 +40,15 @@ main {
     align-items: center;
 }
 
+/* header left side title */
+
 .side-title {
     font-size: 32px;
     font-weight: bold;
     
 }
+
+/* the sign in button */
 
 .sign-in-btn {
     background-color: white;
@@ -48,14 +61,18 @@ main {
     border-radius: 8px;
 }
 
-button {
-    cursor: pointer;
-}
-
 .sign-in-btn:hover {
     background-color: #028262;
     color: white;
 }
+
+/* default style to button for mouse cursor to pointe when the cursor on the button */
+
+button {
+    cursor: pointer;
+}
+
+/* banner part */
 
 .top-banner {
     background-color: #C6E4D6;
@@ -470,6 +487,14 @@ select {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+}
+
+.donate-submit-btn:hover {
+    background-color: rgb(11, 124, 73);
+}
+
+.donate-submit-btn:active {
+    background-color: rgb(15, 138, 83);
 }
 
 .dbtn {
