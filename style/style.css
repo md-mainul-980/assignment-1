@@ -425,10 +425,11 @@ select {
 }
 
 .read-more {
+    width: auto;
     display: inline-block;
     background-color: #007B5E;
     color: white;
-    padding: 10px 15px;
+    padding: 15px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -478,7 +479,7 @@ select {
     height: 56px;
     margin-top: 32px;
     display: inline-block;
-    background-color: rgba(0, 106, 80, 1.00);
+    background-color: rgb(8, 135, 104);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -509,8 +510,12 @@ select {
     background-color: white;
 }
 
-.dbtn:active {
+.dbtn:hover {
     background-color: rgba(198, 228, 214, 1.00);
+}
+
+.dbtn:active {
+    background-color: rgb(153, 191, 174);
 }
 
 .custom-donate {
@@ -562,15 +567,19 @@ select {
     margin-bottom: 16px;
 }
 
+.newsletter-form {
+    margin: 0px 165px 0px 270px;
+    display: flex;
+}
+
 .newsletter-form input {
     width: 600px;
     height: 32px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    text-align: center;
-    color: #888;
+    border-radius: 8px 0px 0px 8px;
+    text-align: left;
 }
 
 .newsletter-form button {
@@ -578,7 +587,7 @@ select {
     height: 52px;
     padding: 10px;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 0px 8px 8px 0px;
     text-align: center;
 }
 
@@ -589,6 +598,10 @@ select {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #138517;
 }
 
 .subscribe-button:active {
